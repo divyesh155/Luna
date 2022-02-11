@@ -62,7 +62,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        //Gizmos.color = Color.magenta;
-        //Gizmos.DrawWireSphere(groundCheck.position, groundRadius);
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawWireSphere(groundCheck.position, groundRadius);
     }
 }

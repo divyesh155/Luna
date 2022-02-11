@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974252825095893864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.4, z: 0}
+  m_LocalPosition: {x: 0.23, y: -0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43,11 +43,11 @@ GameObject:
   - component: {fileID: 9179727519294890909}
   - component: {fileID: 3103569038901643783}
   - component: {fileID: 3139674524120185980}
-  - component: {fileID: 7715667969384268404}
   - component: {fileID: 1746586467136616915}
+  - component: {fileID: 1966353613}
   m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,7 +109,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 72de0c64f2c6a498096698322c976a67, type: 3}
+  m_Sprite: {fileID: 768055037, guid: eac04d857064cab49902dea907f87ee5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -130,7 +130,7 @@ Animator:
   m_GameObject: {fileID: 7881661445924136764}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 979ee725af0e1a34998e637b4bfa1691, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3c368e7c72285be458ed481e899bf65a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -161,22 +161,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!70 &7715667969384268404
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7881661445924136764}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.091685645, y: -0.37556577}
-  m_Size: {x: 1.1456438, y: 1.3006434}
-  m_Direction: 0
 --- !u!114 &1746586467136616915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,12 +173,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43c51c038cbdc4245bc4aade234c5efd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalForce: 0
-  verticalForce: 0
-  groundCheck: {fileID: 0}
-  groundRadius: 0
+  horizontalForce: 50
+  verticalForce: 700
+  groundCheck: {fileID: 6876661418683534718}
+  groundRadius: 0.5
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 8
   isGrounded: 0
   animator: {fileID: 0}
+--- !u!58 &1966353613
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7881661445924136764}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.23783387, y: -0.042061657}
+  serializedVersion: 2
+  m_Radius: 0.48170227
