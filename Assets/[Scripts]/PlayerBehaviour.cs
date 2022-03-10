@@ -56,10 +56,11 @@ public class PlayerBehaviour : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayerMask);
 
+
         if (isGrounded)
         {
-            float run = Input.GetAxisRaw("Horizontal");
             float jump = Input.GetAxisRaw("Jump");
+            float run = Input.GetAxisRaw("Horizontal");
 
             //check if the player is moving
                 if (run != 0)
@@ -111,6 +112,13 @@ public class PlayerBehaviour : MonoBehaviour
 
 			SceneManager.LoadScene("Level1");
         }
+    }
+    void OnTriggerEnter2D(Collider2D col)
+    {
+       if (col.gameObject.CompareTag("Obstacle"))
+    {
+        			TakeDamage(5);
+    }
     }
     private void OnDrawGizmos()
     {
