@@ -76,6 +76,15 @@ public class PlayerBehaviour : MonoBehaviour
             {
              animator.SetInteger("AnimationState", 2);
             }
+            if(run < 0 || run > 0)
+            {
+             animator.SetInteger("AnimationState", 1);
+            }
+            if (Input.GetKey(KeyCode.E))
+            {
+                run = 0;
+             animator.SetInteger("AnimationState", 3);
+            }
         
             Vector2 move = new Vector2(run * horizontalForce, jump * verticalForce);
             rigidbody2D.AddForce(move);
