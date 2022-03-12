@@ -7,6 +7,10 @@ TagManager:
   - Enemy
   - Item
   - Offscreen
+  - Ground
+  - Obstacle
+  - Shot
+  - Platform
   layers:
   - Default
   - TransparentFX

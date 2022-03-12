@@ -14,6 +14,7 @@ public class PlayerBehaviour : MonoBehaviour
     public float groundRadius;
     public LayerMask groundLayerMask;
     public bool isGrounded;
+    public bool lookingright = true;
 
     [Header("Animation Properties")]
     public Animator animator;
@@ -26,6 +27,11 @@ public class PlayerBehaviour : MonoBehaviour
 	public int currentHealth;
     private float elapsed = 0f;
 	public HealthBar healthBar;
+
+    [Header("Weapon")]
+
+    public GameObject bulletPrefab;
+    public Vector3 spawnPos;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,12 +39,15 @@ public class PlayerBehaviour : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         Move();
+
+        spawnPos = transform.position;
 
     //Life leak
     elapsed += Time.deltaTime;
@@ -66,6 +75,7 @@ public class PlayerBehaviour : MonoBehaviour
                 if (run != 0)
             {
                 run = Flip(run);
+                lookingright = false;
 
             }
             else if(run == 0 && jump == 0)
@@ -80,10 +90,12 @@ public class PlayerBehaviour : MonoBehaviour
             {
              animator.SetInteger("AnimationState", 1);
             }
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetButtonDown("Fire1"))
             {
                 run = 0;
              animator.SetInteger("AnimationState", 3);
+        Instantiate( bulletPrefab, spawnPos, bulletPrefab.transform.rotation);
+
             }
         
             Vector2 move = new Vector2(run * horizontalForce, jump * verticalForce);
