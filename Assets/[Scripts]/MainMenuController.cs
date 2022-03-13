@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class UIController : MonoBehaviour
+public class MainMenuController : MonoBehaviour
 {
     public void StartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
     }
 }

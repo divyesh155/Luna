@@ -5,12 +5,13 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
     // Start is called before the first frame update
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(UnityEngine.Collider2D collision)
     {
-        if (col.gameObject.tag == "Player"){
-        
-            Destroy(gameObject);
-			
+        if (collision.gameObject.CompareTag("Player"))
+        {
+
+            Destroy(this.gameObject);
+
         }
     }
 

@@ -12,14 +12,15 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     rigidbody2D = GetComponent<Rigidbody2D>();
-     animator = GetComponent<Animator>();
-     animator.SetInteger("AnimationState", 0);
-              
+        rigidbody2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        animator.SetInteger("AnimationState", 0);
+
     }
-    void Jump(){
-        Vector2 impulse = new Vector2(0, 680);
-        rigidbody2D.AddForce(impulse); 
+    void Jump()
+    {
+        Vector2 impulse = new Vector2(0, 500);
+        rigidbody2D.AddForce(impulse);
         animator.SetInteger("AnimationState", 1);
     }
 
@@ -27,21 +28,28 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         elapsed += Time.deltaTime;
-     if (elapsed >= 4f) {
-         elapsed = elapsed % 1f;
+        if (elapsed >= 4f)
+        {
+            elapsed = elapsed % 1f;
             Jump();
             isJumping = false;
-     }  
-     if (elapsed >= 5f) {
-         elapsed = elapsed % 1f;
-     animator.SetInteger("AnimationState", 0);
-     }
+        }
+        if (elapsed >= 5f)
+        {
+            elapsed = elapsed % 1f;
+            animator.SetInteger("AnimationState", 0);
+        }
 
     }
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Shot"){
-        Destroy(gameObject);
-    }
+        if (col.gameObject.tag == "Shot")
+        {
+            Destroy(gameObject);
+        }
+        if (col.gameObject.CompareTag("Player"))
+        {
+            //Destroy(col.gameObject);
+        }
     }
 }

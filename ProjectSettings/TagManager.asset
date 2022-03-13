@@ -6,11 +6,14 @@ TagManager:
   tags:
   - Enemy
   - Item
-  - Offscreen
   - Ground
   - Obstacle
   - Shot
   - Platform
+  - Finish2
+  - Finish1
+  - Offscreen1
+  - Offscreen2
   layers:
   - Default
   - TransparentFX

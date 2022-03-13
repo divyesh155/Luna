@@ -1156,8 +1156,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2128440851}
-        m_TargetAssemblyTypeName: UIController, Assembly-CSharp
-        m_MethodName: StartLevel
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
