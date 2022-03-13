@@ -71,7 +71,6 @@ public class PlayerBehaviour : MonoBehaviour
             float jump = Input.GetAxisRaw("Jump");
             float run = Input.GetAxisRaw("Horizontal");
 
-            //check if the player is moving
                 if (run != 0)
             {
                 run = Flip(run);
