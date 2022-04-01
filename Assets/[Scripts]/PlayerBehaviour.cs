@@ -130,7 +130,7 @@ public class PlayerBehaviour : MonoBehaviour
         }
         if (col.gameObject.tag == "Offscreen"){
 
-			SceneManager.LoadScene("Level1");
+			SceneManager.LoadScene("Level 1");
         }
     }
     void OnTriggerEnter2D(Collider2D col)

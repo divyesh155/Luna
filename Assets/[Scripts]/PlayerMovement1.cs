@@ -62,10 +62,11 @@ public class PlayerMovement1 : MonoBehaviour
         }
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene("Level2");
+            animator.SetInteger("AnimationState", 4);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
-        movement = Input.GetAxis("Horizontal");
+        movement = Input.GetAxisRaw("Horizontal");
 
         if (movement > 0 || movement < 0)
         {
@@ -118,8 +119,9 @@ public class PlayerMovement1 : MonoBehaviour
 
         if (col.gameObject.tag == "Offscreen2")
         {
-
-            SceneManager.LoadScene("Level2");
+            TakeDamage(100);
+            animator.SetInteger("AnimationState", 4);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         if (col.gameObject.CompareTag("Platform"))
         {
@@ -127,11 +129,12 @@ public class PlayerMovement1 : MonoBehaviour
         }
         if (col.gameObject.tag == "Offscreen1")
         {
-            SceneManager.LoadScene("Level1");
+            TakeDamage(100);
+            animator.SetInteger("AnimationState", 4);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         if (col.gameObject.CompareTag("Finish1"))
         {
-
             SceneManager.LoadScene("Level2");
         }
     }
@@ -139,6 +142,7 @@ public class PlayerMovement1 : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Platform"))
         {
+            TakeDamage(100);
             this.transform.parent = null;
         }
     }
@@ -147,6 +151,11 @@ public class PlayerMovement1 : MonoBehaviour
         if (col.gameObject.CompareTag("Obstacle"))
         {
             TakeDamage(10);
+        }
+        if (col.gameObject.CompareTag("Blackhole"))
+        {
+            TakeDamage(100);
+            Debug.Log("hi");
         }
         if (col.gameObject.tag == "Item")
         {

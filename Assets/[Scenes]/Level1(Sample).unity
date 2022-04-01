@@ -766,6 +766,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 726951980}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 726951980}
     - target: {fileID: 5016567982043203521, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
       propertyPath: m_Name
       value: Enemy (5)
@@ -2333,23 +2341,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5739177202363770335, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
   m_PrefabInstance: {fileID: 210538549}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &210538551 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5739177202363770323, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
-  m_PrefabInstance: {fileID: 210538549}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &210538552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210538551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6c2d75ff6d43824994d8449e5acae2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &217753450
 GameObject:
   m_ObjectHideFlags: 0
@@ -6531,23 +6522,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5739177202363770335, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
   m_PrefabInstance: {fileID: 590132545}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &590132547 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5739177202363770323, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
-  m_PrefabInstance: {fileID: 590132545}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &590132548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590132547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6c2d75ff6d43824994d8449e5acae2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &605995136
 GameObject:
   m_ObjectHideFlags: 0
@@ -9575,7 +9549,7 @@ TilemapRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.005859375, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -11557,23 +11531,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5739177202363770335, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
   m_PrefabInstance: {fileID: 1078980476}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1078980478 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5739177202363770323, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
-  m_PrefabInstance: {fileID: 1078980476}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1078980479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078980478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6c2d75ff6d43824994d8449e5acae2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1106612282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11652,23 +11609,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5739177202363770335, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
   m_PrefabInstance: {fileID: 1106612282}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1106612284 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5739177202363770323, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
-  m_PrefabInstance: {fileID: 1106612282}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1106612285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106612284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6c2d75ff6d43824994d8449e5acae2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1136700984
 GameObject:
   m_ObjectHideFlags: 0
@@ -12543,6 +12483,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 726951980}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 726951980}
     - target: {fileID: 5016567982043203521, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
       propertyPath: m_Name
       value: Enemy (3)
@@ -12758,23 +12706,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5739177202363770335, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
   m_PrefabInstance: {fileID: 1259394189}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1259394191 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5739177202363770323, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
-  m_PrefabInstance: {fileID: 1259394189}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1259394192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259394191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6c2d75ff6d43824994d8449e5acae2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1274941713
 GameObject:
   m_ObjectHideFlags: 0
@@ -13565,23 +13496,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1402510753 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5739177202363770323, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
-  m_PrefabInstance: {fileID: 5739177203953061318}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1402510758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402510753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6c2d75ff6d43824994d8449e5acae2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1402510764 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5739177202363770335, guid: 32d38c2c398584f41b72ae4a2bcc8902, type: 3}
@@ -14933,6 +14847,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 726951980}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 726951980}
     - target: {fileID: 5016567982043203521, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
@@ -15423,6 +15345,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 726951980}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 726951980}
     - target: {fileID: 5016567982043203521, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
       propertyPath: m_Name
       value: Enemy (6)
@@ -15614,6 +15544,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 726951980}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 726951980}
     - target: {fileID: 5016567982043203521, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -15994,7 +15932,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -17853,6 +17791,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 726951980}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 726951980}
     - target: {fileID: 5016567982043203521, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
       propertyPath: m_Name
       value: Enemy (4)
@@ -21377,6 +21323,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 726951980}
+    - target: {fileID: 4453472414432046690, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 726951980}
     - target: {fileID: 5016567982043203521, guid: 514e86a0d1240164294c3f8fee7dd8d2, type: 3}
       propertyPath: m_Name
       value: Enemy
