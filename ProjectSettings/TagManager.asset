@@ -15,6 +15,10 @@ TagManager:
   - Offscreen1
   - Offscreen2
   - Blackhole
+  - Offscreen
+  - Tutorial1
+  - Tutorial3
+  - Tutorial2
   layers:
   - Default
   - TransparentFX

@@ -32,7 +32,12 @@ public class PlayerBehaviour : MonoBehaviour
 
     public GameObject bulletPrefab;
     public Vector3 spawnPos;
-    // Start is called before the first frame update
+
+    [Header("Tutorials")]
+    public GameObject tutorial1;
+    public GameObject tutorial2;
+    public GameObject tutorial3;
+
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -139,6 +144,38 @@ public class PlayerBehaviour : MonoBehaviour
     {
         			TakeDamage(5);
     }
+       if (col.gameObject.CompareTag("Tutorial1"))
+        {
+            tutorial1.SetActive(true);
+        }
+
+        if (col.gameObject.CompareTag("Tutorial2"))
+        {
+            tutorial2.SetActive(true);
+        }
+
+        if (col.gameObject.CompareTag("Tutorial3"))
+        {
+            tutorial3.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("Tutorial1"))
+        {
+            tutorial1.SetActive(false);
+        }
+
+        if (col.gameObject.CompareTag("Tutorial2"))
+        {
+            tutorial2.SetActive(false);
+        }
+
+        if (col.gameObject.CompareTag("Tutorial3"))
+        {
+            tutorial3.SetActive(false);
+        }
     }
     private void OnDrawGizmos()
     {
