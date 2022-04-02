@@ -135,7 +135,15 @@ public class PlayerMovement1 : MonoBehaviour
         }
         if (col.gameObject.CompareTag("Finish1"))
         {
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene(2);
+        }
+        if (col.gameObject.CompareTag("Finish2"))
+        {
+            SceneManager.LoadScene(3);
+        }
+        if (col.gameObject.CompareTag("Finish3"))
+        {
+            SceneManager.LoadScene(5);
         }
     }
     void OnCollisionExit2D(Collision2D col)
@@ -156,6 +164,11 @@ public class PlayerMovement1 : MonoBehaviour
         {
             TakeDamage(100);
             Debug.Log("hi");
+        }
+        if (col.gameObject.tag == "Offscreen")
+        {
+            // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(4);
         }
         if (col.gameObject.tag == "Item")
         {

@@ -37,6 +37,7 @@ public class PlayerBehaviour : MonoBehaviour
     public GameObject tutorial1;
     public GameObject tutorial2;
     public GameObject tutorial3;
+    public GameObject tutorial4;
 
     void Start()
     {
@@ -158,6 +159,10 @@ public class PlayerBehaviour : MonoBehaviour
         {
             tutorial3.SetActive(true);
         }
+        if (col.gameObject.CompareTag("Tutorial4"))
+        {
+            tutorial3.SetActive(true);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D col)
@@ -173,6 +178,10 @@ public class PlayerBehaviour : MonoBehaviour
         }
 
         if (col.gameObject.CompareTag("Tutorial3"))
+        {
+            tutorial3.SetActive(false);
+        }
+        if (col.gameObject.CompareTag("Tutorial4"))
         {
             tutorial3.SetActive(false);
         }

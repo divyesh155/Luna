@@ -19,6 +19,8 @@ TagManager:
   - Tutorial1
   - Tutorial3
   - Tutorial2
+  - Finish3
+  - Tutorial4
   layers:
   - Default
   - TransparentFX
@@ -27,7 +29,7 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
+  - Bullet
   - 
   - 
   - 

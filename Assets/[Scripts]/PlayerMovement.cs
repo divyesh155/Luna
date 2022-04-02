@@ -116,11 +116,7 @@ public class PlayerMovement : MonoBehaviour
             TakeDamage(10);
         }
         
-        if (col.gameObject.tag == "Offscreen")
-        {
-
-            SceneManager.LoadScene("Level2");
-        }
+       
         if (col.gameObject.CompareTag("Platform"))
         {
             this.transform.parent = col.transform;
@@ -143,6 +139,10 @@ public class PlayerMovement : MonoBehaviour
         {
             Destroy(col.gameObject);
             TakeDamage(-15);
+        }
+        if (col.gameObject.tag == "Offscreen")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
     private void OnDrawGizmos()
