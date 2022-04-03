@@ -63,7 +63,9 @@ public class PlayerMovement1 : MonoBehaviour
         if (currentHealth <= 0)
         {
             animator.SetInteger("AnimationState", 4);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(4);
+
         }
 
         movement = Input.GetAxisRaw("Horizontal");

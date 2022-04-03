@@ -1,0 +1,497 @@
+fileFormatVersion: 2
+guid: 54e446e1841b8af4da4ceb5798dee516
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 823
+        width: 415
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce531b153c2061428174e868ef942a8
+      internalID: 1648287038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 828
+        width: 396
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbe475c0df644c4888c1c73ebc15fe9
+      internalID: -2083884319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 828
+        width: 387
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e835b5a983b9bbc468ee06fda92dd5ee
+      internalID: 623809514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 819
+        width: 410
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651533b47dbe2d346b9415a812d99f49
+      internalID: -1430424762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 573
+        width: 413
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fffc6eec413b2e42bf30d0f8d892560
+      internalID: -1577113324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 569
+        width: 427
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1259a866ccca4464eac2d25c9c5f5356
+      internalID: 1437219374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 574
+        width: 401
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7944fd4c6445e4a8f8a7639cea637c
+      internalID: -848444114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 564
+        width: 411
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9045a418d85630d439cce0d38fec1e54
+      internalID: -1086550153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 333
+        width: 416
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46e4538e526ccf4fa1793c029cb8dba
+      internalID: -40901259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 330
+        width: 415
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a45cd4a7ecd704fa9583496f93a768
+      internalID: 1847053572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 329
+        width: 396
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4d0026f3aca3b43876f3c4b7e298af
+      internalID: -249202532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blackhole_Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 328
+        width: 392
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed49d5e9fb15f564c8d41bc9b946f904
+      internalID: 1165447310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Blackhole_Spritesheet_82: -249202532
+      Blackhole_Spritesheet_58: 292090200
+      Blackhole_Spritesheet_84: 1165447310
+      Blackhole_Spritesheet_2: -760842818
+      Blackhole_Spritesheet_60: -1726767299
+      Blackhole_Spritesheet_31: -1884050586
+      Blackhole_Spritesheet_64: -1772876139
+      Blackhole_Spritesheet_54: 2027646743
+      Blackhole_Spritesheet_61: 1154984164
+      Blackhole_Spritesheet_0: 1202495326
+      Blackhole_Spritesheet_17: -737261493
+      Blackhole_Spritesheet_39: -2087268936
+      Blackhole_Spritesheet_29: -1430424762
+      Blackhole_Spritesheet_44: -231311294
+      Blackhole_Spritesheet_59: -40901259
+      Blackhole_Spritesheet_30: 1252112637
+      Blackhole_Spritesheet_4: 1926497729
+      Blackhole_Spritesheet_6: 1314501579
+      Blackhole_Spritesheet_79: 1498125863
+      Blackhole_Spritesheet_23: 1554278322
+      Blackhole_Spritesheet_86: 312969747
+      Blackhole_Spritesheet_26: 1648287038
+      Blackhole_Spritesheet_53: -243347292
+      Blackhole_Spritesheet_3: 30031028
+      Blackhole_Spritesheet_48: -848444114
+      Blackhole_Spritesheet_1: 1013337024
+      Blackhole_Spritesheet_75: -54280475
+      Blackhole_Spritesheet_68: 478015721
+      Blackhole_Spritesheet_5: -612980091
+      Blackhole_Spritesheet_9: 151473914
+      Blackhole_Spritesheet_70: -1502711541
+      Blackhole_Spritesheet_21: 1175277414
+      Blackhole_Spritesheet_50: -863502565
+      Blackhole_Spritesheet_57: -1965119448
+      Blackhole_Spritesheet_13: -1058937971
+      Blackhole_Spritesheet_76: 647301585
+      Blackhole_Spritesheet_62: -1060118719
+      Blackhole_Spritesheet_7: -965803726
+      Blackhole_Spritesheet_69: 1407795885
+      Blackhole_Spritesheet_42: 468444375
+      Blackhole_Spritesheet_43: -584480800
+      Blackhole_Spritesheet_36: 280340911
+      Blackhole_Spritesheet_65: 1847053572
+      Blackhole_Spritesheet_25: 221757308
+      Blackhole_Spritesheet_10: 1365328419
+      Blackhole_Spritesheet_34: -1506182609
+      Blackhole_Spritesheet_85: -1769170777
+      Blackhole_Spritesheet_52: -1429904742
+      Blackhole_Spritesheet_71: 557449806
+      Blackhole_Spritesheet_14: 932826416
+      Blackhole_Spritesheet_56: -1086550153
+      Blackhole_Spritesheet_49: -386600998
+      Blackhole_Spritesheet_72: -1724473124
+      Blackhole_Spritesheet_35: 12690020
+      Blackhole_Spritesheet_83: -1306643698
+      Blackhole_Spritesheet_51: 2142975427
+      Blackhole_Spritesheet_73: -1276998232
+      Blackhole_Spritesheet_8: 1162832046
+      Blackhole_Spritesheet_38: -563212725
+      Blackhole_Spritesheet_40: -1137348800
+      Blackhole_Spritesheet_74: -234223494
+      Blackhole_Spritesheet_18: 1427307623
+      Blackhole_Spritesheet_45: -1577113324
+      Blackhole_Spritesheet_16: 43974048
+      Blackhole_Spritesheet_81: -338968773
+      Blackhole_Spritesheet_32: -869511186
+      Blackhole_Spritesheet_27: -2083884319
+      Blackhole_Spritesheet_28: 623809514
+      Blackhole_Spritesheet_12: -1966761263
+      Blackhole_Spritesheet_41: -1768509215
+      Blackhole_Spritesheet_63: 2130835058
+      Blackhole_Spritesheet_20: 1453144453
+      Blackhole_Spritesheet_77: -1988104744
+      Blackhole_Spritesheet_46: -1831893924
+      Blackhole_Spritesheet_78: 1717688323
+      Blackhole_Spritesheet_55: 1263613966
+      Blackhole_Spritesheet_11: -763745101
+      Blackhole_Spritesheet_80: 1550152932
+      Blackhole_Spritesheet_24: 1551862298
+      Blackhole_Spritesheet_15: 2106759377
+      Blackhole_Spritesheet_33: -646821652
+      Blackhole_Spritesheet_66: -1568115497
+      Blackhole_Spritesheet_47: 1437219374
+      Blackhole_Spritesheet_67: -571334890
+      Blackhole_Spritesheet_37: -1673782564
+      Blackhole_Spritesheet_19: -2098320720
+      Blackhole_Spritesheet_22: 334519028
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
