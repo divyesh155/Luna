@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Item
+  - Ground
+  - Obstacle
+  - Shot
+  - Platform
+  - Finish2
+  - Finish1
+  - Offscreen1
+  - Offscreen2
+  - Blackhole
+  - Offscreen
+  - Tutorial1
+  - Tutorial3
+  - Tutorial2
+  - Finish3
+  - Tutorial4
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Bullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3305708679
+    locked: 0
+  - name: Foreground
+    uniqueID: 1999721353
+    locked: 0
+  - name: Player
+    uniqueID: 3461852671
+    locked: 0
